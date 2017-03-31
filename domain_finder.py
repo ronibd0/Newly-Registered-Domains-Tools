@@ -66,7 +66,7 @@ def sendEmail(data):
 
 if __name__ == '__main__':
 
-	print "[!} Starting Domain Finder..."
+	print "[!] Starting Domain Finder..."
 
 	''' Open the file '''
 	with open(fileName) as f:
