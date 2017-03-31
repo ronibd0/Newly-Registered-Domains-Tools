@@ -32,8 +32,8 @@ This logs output to the terminal or can send an email. An example of the output 
 ```
 [!} Starting Domain Finder...
 <score>: <dodgydomain>.net - ['<keywordmatched>']
-<score>:: <dodgydomain>.com - ['<keywordmatched>']
-<score>:: <legitimatedomain>.net - ['<keywordmatch>']
-<score>:: <dodgydomain>.com - ['<keywordmatch>']
+<score>: <dodgydomain>.com - ['<keywordmatched>']
+<score>: <legitimatedomain>.net - ['<keywordmatch>']
+<score>: <dodgydomain>.com - ['<keywordmatch>']
 ...
 ```
