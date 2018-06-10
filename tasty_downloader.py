@@ -55,7 +55,7 @@ if __name__ == '__main__':
 	print "[!] Starting Tasty Downloader..."
 
 	''' Perform the web request '''
-	r = requests.post(url, data="", headers=headers, verify=False)
+	r = requests.get(url, data="", headers=headers, verify=False)
 
 	''' Get the number of domains '''
 	numOfDomains = re.findall(regexNumOfDomains, r.text)
