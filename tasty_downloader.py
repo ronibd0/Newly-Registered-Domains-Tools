@@ -12,7 +12,7 @@ date = datetime.date.fromordinal(datetime.date.today().toordinal()-3)
 fileName = "/opt/scripts/tasty/%s.txt" % (date)
 
 ''' Taste Reports Query URL '''
-url = "http://tastereports.com/archives.html?type=added&stat_date=" + str(date) + "&registrar_id=all&Submit=Go&keyword="
+url = "http://tastereports.it/archives.html?type=added&stat_date=" + str(date) + "&registrar_id=all&Submit=Go&keyword="
 
 ''' Regex '''
 regexDomain = r'\"domain\.html\?domain=([a-zA-Z0-9-.]{1,255})\"'
@@ -20,7 +20,7 @@ regexNumOfDomains = r'\(([0-9,]{0,10})\sdomain'
 
 ''' Request Headers '''
 headers = {
-        "Host" : "tastereports.com",
+        "Host" : "tastereports.it",
 	"User-Agent" : "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0",
         "Connection" : "close",
         "Upgrade-Insecure-Requests" : "1",

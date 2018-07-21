@@ -11,10 +11,10 @@ python tasty_download.py
 
 This creates an output file. An example of the output file is below:
 ```
-newdomain1.com
-newdomain2.com
-newdomain3.net
-newdomain4.com
+newdomain1.it
+newdomain2.it
+newdomain3.it
+newdomain4.it
 ...
 ```
 
@@ -31,9 +31,9 @@ This logs output to the terminal or can send an email. An example of the output 
 
 ```
 [!] Starting Domain Finder...
-<score>: <dodgydomain>.net - ['<keywordmatched>']
-<score>: <dodgydomain>.com - ['<keywordmatched>']
-<score>: <legitimatedomain>.net - ['<keywordmatch>']
-<score>: <dodgydomain>.com - ['<keywordmatch>']
+<score>: <dodgydomain>.it - ['<keywordmatched>']
+<score>: <dodgydomain>.it - ['<keywordmatched>']
+<score>: <legitimatedomain>.it - ['<keywordmatch>']
+<score>: <dodgydomain>.it - ['<keywordmatch>']
 ...
 ```

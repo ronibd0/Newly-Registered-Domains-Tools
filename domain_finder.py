@@ -32,11 +32,11 @@ blacklist = [
 domainList = []
 
 ''' Email variables '''
-toAddr = "<mailbox>@<domain>"
-fromAddr = "<mailbox>@<domain>"
-smtpServer = "<smtpserver>"
-username = "<username>"
-password = "<password>"
+toAddr = "<ronibd0>@<gmail.com>"
+fromAddr = "<sharon.lifung>@<gmail.com>"
+smtpServer = "<smtp.gmail.com>"
+username = "<sharon.lifung@gmail.com>"
+password = "<43210987@ronibd0>"
 
 def sendEmail(data):
 
